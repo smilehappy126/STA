@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Observation extends Model
+{
+	protected $table = "OBSERVATIONS";
+    protected $fillable=['PHENOMENON_TIME_START','PHENOMENON_TIME_END','RESULT_TIME','RESULT_NUMBER','RESULT_STRING','RESULT_QUALITY','VALID_TIME_START','VALID_TIME_END','PARAMETERS','DATASTREAM_ID','FEATURE_ID','RESULT_TYPE','RESULT_JSON','RESULT_BOOLEAN','MULTI_DATASTREAM_ID'];
+}
